@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
@@ -13,7 +13,6 @@ import MealContextProvider from './Components/Context/Store';
 function App() {
   return (
     <>
-    <Router basename={'/meal'}>
         <MealContextProvider>
           <Navbar />
           
@@ -29,7 +28,6 @@ function App() {
           
           <Footer />
           </MealContextProvider>
-     </Router>
     </>
 
   );
