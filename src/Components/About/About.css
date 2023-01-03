@@ -1,0 +1,73 @@
+#about{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+#about h2{
+    font-size: 3rem;
+}
+#about p{
+    color: rgb(74, 73, 73);
+    line-height: 1.7rem;
+    padding: 1.2rem 0;
+}
+#about li{
+    color: rgb(0, 0, 0);
+    font-weight:bold ;
+    padding-bottom: 1rem;
+}
+#about .btn_color{
+    margin-left: 20px;  
+} 
+#about .btn_color:hover{
+   background-color: rgba(242, 188, 87, 0.718);
+}
+
+
+/* Desktop specific */
+@media (max-width: 992px) 
+{
+    #about h2{
+        font-size: 2rem;
+    }
+    #about li{
+        font-size: .8rem;
+        padding-bottom: .7rem;
+    }
+    #about p{
+        line-height: 1.5rem;
+        padding: .7rem 0;
+        text-align: justify;
+    }
+  
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) 
+{ 
+	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) 
+{
+	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) 
+{
+    #about h2{
+        font-size: 1.5rem;
+    }
+    #about li{
+        font-size: .7rem;
+        
+    }
+	
+}

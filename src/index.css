@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --btn-color:rgb(242, 189, 87);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.btn_color{
+  background-color: var(--btn-color);
+}
+
+body {
+  font-family:'ubuntu','Courier New', Courier, monospace ,'Times New Roman', Times, serif;
+}
+

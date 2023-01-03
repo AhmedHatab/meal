@@ -1,0 +1,79 @@
+footer h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(38, 35, 31);
+
+}
+footer>h3{
+    border-bottom: 1px solid rgba(108, 93, 93, 0.776);
+    padding-bottom:7px !important;
+}
+footer input{
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid rgba(108, 93, 93, 0.776);
+    padding-bottom: 7px;
+    font-size: .8rem;
+    margin-right: 2px;
+    max-width: 100%;
+}
+footer input:focus{
+    outline: none;
+}
+footer button{
+    display:inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--btn-color);
+    margin-top: 3px;
+  
+}
+footer input:focus{
+ outline: none;
+}
+footer input::placeholder{
+    color: rgb(74, 73, 73);
+    opacity: 1;
+
+}
+footer a{
+    color:rgb(74, 73, 73);
+    transition: all 350ms ease;
+}
+footer .col-md-3 a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline:1px solid rgba(108, 93, 93, 0.776);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+footer .col-md-3 a i{
+    font-size: 1.2rem;
+
+}
+footer a:hover{
+    color: rgba(38, 35, 31, 0.571);
+}
+footer .col-md-3 a:hover{
+    background-color: var(--btn-color);
+    outline-color:transparent;
+    color: rgb(38, 35, 31);
+}
+
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    color: rgb(74, 73, 73);
+    padding-bottom:9px;
+}

@@ -1,0 +1,46 @@
+#home_sec1 .carousel img{
+   height: 100vh ; 
+}
+ #home_sec1 .carousel h2{
+  font-size: 3rem;
+  padding-bottom: 7px;
+ }
+ #home_sec1 .carousel p{ 
+  font-size: 1.2rem;
+ }
+ #home_sec2 .btn_color:hover{
+  background-color: rgba(255, 153, 0, 0.548)
+
+ }
+ #home_sec1 .carousel-caption{
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.533) !important;
+  position: absolute;
+  top: 37%;
+  bottom:30% !important;
+  border-radius: 30px;
+ }
+ #home_sec3 .card{
+  background-color: rgba(255, 204, 0, 0.224);
+  border: none;
+  padding: 13px 0;
+  transition: all 300ms ease;
+ }
+ #home_sec3 .card:hover{
+  box-shadow: rgba(250, 150, 0, 0.915) 0px 3px 8px
+ }
+
+
+ #home_sec3 .card img{
+   display: inline-block;
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+   margin: 13px;
+ }
+
+
+
+
+
+
