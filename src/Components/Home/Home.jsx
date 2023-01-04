@@ -51,7 +51,7 @@ function Home() {
       </div>
     </section>
     <section id="home_sec2" className="container py-5">
-      <div className="row g-5">
+      <div className="row g-5 w-100">
         <div className="col-md-6">
           <div>
             <h2 className="fs-1 fw-bold  ">Do You Have Any Dinner Plan Today? Reserve Your Table</h2>
@@ -98,14 +98,6 @@ function Home() {
         </div>
       </div>
     </section>
-
-
-
-
-  
-   
-
-  
     
     </>
   );
