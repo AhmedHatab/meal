@@ -17,13 +17,13 @@ function App() {
           <Navbar />
           
             <Routes>
-                <Route path='' element={<Home />} ></Route>
+                <Route path='*' element={<Home />} ></Route>
                 <Route path='home' element={<Home />} ></Route>
                 <Route path='about' element={<About />} ></Route>
                 <Route path='menu' element={<Menu />} ></Route>
                 <Route path='chefs' element={<Chefs />} ></Route>
                 <Route path='cart' element={<Cart />} ></Route>
-                <Route path='*' element={<NotFound />} ></Route>
+                <Route path='' element={<NotFound />} ></Route>
             </Routes>
           
           <Footer />
