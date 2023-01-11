@@ -62,8 +62,8 @@ function Menu() {
               <>
                 {recipes.map((recipe,id)=>{
                   return (
-                    <div className='col-md-4 mb-3  '>
-                      <div key={id}  className="card p-2 mealCard shadow">
+                    <div key={id}  className='col-md-4 mb-3  '>
+                      <div  className="card p-2 mealCard shadow">
                           <img  className='img-fluid card-img-top' src={recipe.image_url} alt="" />
                           <h4 className="text-center">{recipe.title}</h4>
                           <div className='d-flex justify-content-between container '>

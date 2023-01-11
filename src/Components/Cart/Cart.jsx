@@ -88,7 +88,6 @@ function Cart() {
             
              { dataMeals.map((meal ,index)=>{
                 return (
-                  <>
                  <div key={index} className="card  mb-3 mx-auto " style={{maxWidth: '540px'}}>
                   <div className="row gap-2  justify-content-center text-center">
                       <div className="col-md-4 py-2">
@@ -113,7 +112,6 @@ function Cart() {
                   </div>
                 </div> 
                   
-                  </>
                 )     
               })}
               <div className='text-center p-3 d-md-flex justify-content-between align-items-center mx-auto ' style={{maxWidth: '540px'}}>
