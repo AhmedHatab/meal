@@ -10,6 +10,8 @@ function Menu() {
   let {incCounter} =useContext(mealContext);
   let {cartItem} =useContext(mealContext);
   let {foodAPI} =useContext(mealContext);
+  let {recipeName} =useContext(mealContext);
+
 
       //use effect to call API
       useEffect(() => {
@@ -17,7 +19,7 @@ function Menu() {
         if (localStorage.getItem('price') == null){
           localStorage.setItem('price',0)
          }
-    })
+    },[recipeName])
 // get total price
  let countMeal =(p)=>{
   localStorage.setItem('price',Number(localStorage.getItem('price')) + p )
@@ -63,7 +65,7 @@ function Menu() {
                     <div className='col-md-4 mb-3  '>
                       <div key={id}  className="card p-2 mealCard shadow">
                           <img  className='img-fluid card-img-top' src={recipe.image_url} alt="" />
-                          <h4 className="ps-3 pt-1 text-center">{recipe.title}</h4>
+                          <h4 className="text-center">{recipe.title}</h4>
                           <div className='d-flex justify-content-between container '>
                             <div className='btn_color rounded-3 p-2 mb-3'>{`Price ${id+9}$`}</div>
                             <button id={id} className='bg-transparent border-0'onClick={(e)=>{incCounter() ;cartItem(e); countMeal(id+9); doConfirm() }}> <i id={id} className=" fs-4 fa-solid fa-cart-plus "></i></button>

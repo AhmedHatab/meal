@@ -8,7 +8,14 @@
     text-transform: capitalize;
 }
 #menu .mealCard{
-    height:380px;
+  min-height:380px;
+}
+#menu .mealCard h4{
+  padding-top: 1rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:83px;
 }
 
 #menu .reload{

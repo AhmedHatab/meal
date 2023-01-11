@@ -55,7 +55,7 @@ function MealContextProvider(props) {
 
   return (
     <>
-        <mealContext.Provider value={{recipes ,getRecipe ,counterRecipe ,incCounter ,cartItem,cartData ,decCounter ,foodAPI }}>
+        <mealContext.Provider value={{recipes ,getRecipe ,counterRecipe ,incCounter ,cartItem,cartData ,decCounter ,foodAPI ,recipeName }}>
             {props.children}
         </mealContext.Provider>
     
